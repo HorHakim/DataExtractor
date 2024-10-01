@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>600</height>
+    <height>602</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -52,22 +52,13 @@ color: rgb(31, 69, 152);
     </property>
     <property name="font">
      <font>
+      <pointsize>-1</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
      <string>Parcourir</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>240</y>
-      <width>521</width>
-      <height>301</height>
-     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -88,6 +79,24 @@ color: rgb(31, 69, 152);
     </property>
     <property name="text">
      <string>Mon ticket de caisse</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="output_text">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>250</y>
+      <width>451</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="plainText">
+     <string/>
     </property>
    </widget>
   </widget>
