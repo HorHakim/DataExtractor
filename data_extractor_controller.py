@@ -14,10 +14,11 @@ class DataExtractorController:
 
 	def run_process(self):
 		"""
-		1) Dans le front elle va afficher le QFileDialog
+		1) Dans le front elle va afficher le QFileDialog # Done
 		2) Reccupère de chemin de l'image
 		3) Elle envoie le chemin de l'image au backend
 		4) Le backend utilise l'api pour recevoir le json
 		5) On envoie le json au frontend pour l'affichage
 		"""
-		print("coucou")
+		document_name = self.frontend.browse_file()
+		print(document_name)

@@ -8,3 +8,8 @@ class DataExtractorView(QMainWindow):
 		super(DataExtractorView, self).__init__()
 		uic.loadUi("./data_extractor_front.ui", self)
 		self.show()
+
+
+	def browse_file(self):
+		document_name, _ = QFileDialog.getOpenFileName(self, "Selectionnez une facture")
+		return document_name
